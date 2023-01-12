@@ -10,6 +10,10 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: olive;
 }
 
 #search-box {
@@ -17,4 +21,29 @@ body {
   padding: 8px;
   max-width: 320px;
   margin-bottom: 16px;
+}
+
+.country-label > input{
+  margin-left: 25px;
+}
+
+.country-list{
+  list-style: none;
+}
+
+.country-list > li {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.country-list > li > img {
+  max-width: 100px;
+}
+
+.country-info > img{
+  max-width: 200px;
 }
